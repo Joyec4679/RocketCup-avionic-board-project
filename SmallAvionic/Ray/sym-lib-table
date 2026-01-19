@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "picTransSymbol")(type "KiCad")(uri "D:/isp_avonic/kicad/Iusbubula_Avionic_Board/Lib/picTransSymbol.kicad_sym")(options "")(descr ""))
+)
