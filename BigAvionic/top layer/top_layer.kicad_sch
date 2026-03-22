@@ -2478,6 +2478,19 @@
 		(uuid 3ed2bf4a-2e02-4c3b-83eb-98ff4dcfc6db)
 	)
 	(rectangle
+		(start 212.09 63.5)
+		(end 269.24 134.62)
+		(stroke
+			(width 0.1778)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 652b209d-56b1-4929-a24e-f993f568e361)
+	)
+	(rectangle
 		(start 209.55 138.43)
 		(end 260.35 160.02)
 		(stroke

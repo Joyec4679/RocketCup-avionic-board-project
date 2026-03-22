@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffaf",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Second_layer_MCU.kicad_prl",
+    "filename": "power layer.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -100,8 +100,6 @@
       103,
       103,
       63,
-      103,
-      103,
       103,
       103
     ],
