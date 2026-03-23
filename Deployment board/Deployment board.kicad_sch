@@ -2679,7 +2679,7 @@
 	)
 	(text "F1保線絲\nD5防突波\nR6下拉電阻\nQ3(PMOS)開關(防反接保護)\nJ6物理開關\nBAT+作為整体電源+"
 		(exclude_from_sim no)
-		(at 172.974 46.99 0)
+		(at 195.834 43.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
