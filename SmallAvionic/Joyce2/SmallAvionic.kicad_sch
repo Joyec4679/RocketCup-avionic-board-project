@@ -7570,20 +7570,6 @@
 		(uuid 02d98f43-a865-43cc-a116-50a104531c8c)
 	)
 	(rectangle
-		(start 110.49 121.92)
-		(end 125.73 128.27)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 0 0 1)
-		)
-		(uuid 04007bb1-051f-422d-be9b-1b86ed91cc72)
-	)
-	(rectangle
 		(start 118.11 280.67)
 		(end 147.32 313.69)
 		(stroke
@@ -7622,7 +7608,7 @@
 	)
 	(rectangle
 		(start 109.22 77.47)
-		(end 121.92 99.06)
+		(end 123.19 101.6)
 		(stroke
 			(width 0)
 			(type solid)
@@ -7747,6 +7733,19 @@
 		(uuid 409b0285-ac02-4894-afe3-fa38d7d4affe)
 	)
 	(rectangle
+		(start 194.31 269.24)
+		(end 209.55 274.32)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid 46e27331-2782-4759-b7a3-9df97118a4ca)
+	)
+	(rectangle
 		(start 241.3 260.096)
 		(end 295.91 311.15)
 		(stroke
@@ -7836,6 +7835,19 @@
 		(uuid 721eb905-bf0b-40a4-be51-2c0e1e0dea9d)
 	)
 	(rectangle
+		(start 58.42 127)
+		(end 73.66 132.08)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid 7886afbd-ecab-4278-b542-696b8b16e39c)
+	)
+	(rectangle
 		(start 119.38 111.76)
 		(end 119.38 111.76)
 		(stroke
@@ -7846,20 +7858,6 @@
 			(type none)
 		)
 		(uuid 7c61d9ff-0a31-4592-b563-795aa3052a71)
-	)
-	(rectangle
-		(start 226.06 220.98)
-		(end 241.3 227.33)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 0 0 1)
-		)
-		(uuid 80dfc148-32a3-4104-ad0e-2e978a1487f8)
 	)
 	(rectangle
 		(start 213.36 46.99)
@@ -8054,7 +8052,7 @@
 		(uuid d758d3f5-4611-4718-9cd6-f5b9d0d6aa24)
 	)
 	(rectangle
-		(start 227.33 227.33)
+		(start 227.33 224.79)
 		(end 241.3 234.95)
 		(stroke
 			(width 0)
@@ -8425,6 +8423,17 @@
 			)
 		)
 		(uuid "6244d738-a2eb-4774-825e-30e85f12711e")
+	)
+	(text "C27在VCC旁邊\nC25在3.3V旁"
+		(exclude_from_sim no)
+		(at 310.388 250.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6add236b-1ad4-4539-af4e-413dfbd303d7")
 	)
 	(text "磁珠:抑制高頻雜訊"
 		(exclude_from_sim no)
@@ -9122,12 +9131,6 @@
 		(uuid "921e695b-2f83-4519-9523-4dff0efa52e6")
 	)
 	(junction
-		(at 213.36 278.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93b89d15-f104-4619-93f0-29db9c2e2a33")
-	)
-	(junction
 		(at 213.36 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9372,16 +9375,6 @@
 			(type default)
 		)
 		(uuid "03a9ef6e-eb05-4b43-8b0b-d97db684391c")
-	)
-	(wire
-		(pts
-			(xy 213.36 275.59) (xy 213.36 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04606464-0431-4255-a4da-ee18626df026")
 	)
 	(wire
 		(pts
@@ -10805,16 +10798,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 278.13) (xy 215.9 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b5966e1-c4bd-48c9-a830-138d011e9d61")
-	)
-	(wire
-		(pts
 			(xy 44.45 97.79) (xy 50.8 97.79)
 		)
 		(stroke
@@ -10895,7 +10878,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 275.59) (xy 213.36 275.59)
+			(xy 215.9 275.59) (xy 210.82 275.59)
 		)
 		(stroke
 			(width 0)
@@ -11422,16 +11405,6 @@
 			(type default)
 		)
 		(uuid "946332c1-63f9-45f7-bf65-f6d213576d50")
-	)
-	(wire
-		(pts
-			(xy 210.82 278.13) (xy 213.36 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9471f21f-6fc2-418c-9b44-ff4a793b4d5e")
 	)
 	(wire
 		(pts
@@ -12795,7 +12768,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 278.13) (xy 210.82 280.67)
+			(xy 210.82 275.59) (xy 210.82 280.67)
 		)
 		(stroke
 			(width 0)
@@ -14293,7 +14266,7 @@
 	)
 	(global_label "CSB_Flash"
 		(shape input)
-		(at 113.03 125.73 0)
+		(at 109.22 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14303,7 +14276,7 @@
 		)
 		(uuid "bcba231b-a067-43ae-b941-6a3adb3035b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.8122 125.73 0)
+			(at 122.0022 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21655,17 +21628,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 220.98 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9002ad07-d864-4a69-84d0-230be9df5383")
 		(property "Reference" "J5"
-			(at 223.52 273.0499 0)
+			(at 223.52 271.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21673,8 +21646,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 223.52 275.5899 0)
+		(property "Value" "Conn_01x03"
+			(at 223.52 274.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21682,7 +21655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
 			(at 220.98 273.05 0)
 			(effects
 				(font
@@ -21700,7 +21673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 220.98 273.05 0)
 			(effects
 				(font
@@ -21732,9 +21705,6 @@
 		)
 		(pin "3"
 			(uuid "efd62832-9b35-46a6-b15b-38cfa254e4d7")
-		)
-		(pin "4"
-			(uuid "40072eaa-09b9-49e2-abbe-6db73d1b9945")
 		)
 		(pin "2"
 			(uuid "5f362c0b-fc3d-4623-8ef1-eac0fb911633")
