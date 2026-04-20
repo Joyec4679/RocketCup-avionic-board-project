@@ -1,0 +1,125 @@
+資訊: 正在處理符號 '3V3:TestPoint:TestPoint_Pad_D1.0mm'。
+資訊: 正在處理符號 '5V1:TestPoint:TestPoint_Pad_1.0x1.0mm'。
+資訊: 正在處理符號 'Buck_5v1:TestPoint:TestPoint_Pad_D1.0mm'。
+資訊: 正在處理符號 'C1:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'。
+資訊: 總計警告: 12, 錯誤: 0。
+資訊: 正在處理符號 'R52:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'C14:Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+資訊: 正在處理符號 'C15:Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+資訊: 正在處理符號 'C16:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'。
+資訊: 正在處理符號 'C17:Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+資訊: 正在處理符號 'C18:Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+資訊: 正在處理符號 'C19:Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+資訊: 正在處理符號 'C21:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'。
+資訊: 正在處理符號 'C22:Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+資訊: 正在處理符號 'C23:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'。
+資訊: 正在處理符號 'C24:Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+資訊: 正在處理符號 'C52:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'。
+資訊: 正在處理符號 'D1:LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder'。
+資訊: 正在處理符號 'D2:LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder'。
+資訊: 正在處理符號 'D3:LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder'。
+資訊: 正在處理符號 'D5:Diode_SMD:D_SMA'。
+資訊: 正在處理符號 'F1:Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder'。
+資訊: 正在處理符號 'GND1:TestPoint:TestPoint_Pad_1.0x1.0mm'。
+資訊: 正在處理符號 'H1:MountingHole:MountingHole_3.2mm_M3_DIN965_Pad'。
+資訊: 正在處理符號 'H2:MountingHole:MountingHole_3.2mm_M3_DIN965_Pad'。
+資訊: 正在處理符號 'H3:MountingHole:MountingHole_3.2mm_M3_DIN965_Pad'。
+資訊: 正在處理符號 'H4:MountingHole:MountingHole_3.2mm_M3_DIN965_Pad'。
+資訊: 正在處理符號 'J1:Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal'。
+資訊: 正在處理符號 'J2:Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal'。
+資訊: 正在處理符號 'J3:Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal'。
+資訊: 正在處理符號 'J4:Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal'。
+資訊: 正在處理符號 'J5:Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal'。
+資訊: 正在處理符號 'L1:Inductor_SMD:L_7.3x7.3_H3.5'。
+資訊: 正在處理符號 'Q1:Package_TO_SOT_SMD:SOT-23'。
+資訊: 正在處理符號 'Q2:Package_TO_SOT_SMD:SOT-23'。
+資訊: 正在處理符號 'R1:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'C12:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R2:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R3:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R21:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R20:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R19:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R18:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R17:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R16:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R15:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R14:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R13:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'R55:Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+資訊: 正在處理符號 'U2:Package_TO_SOT_SMD:SOT-223-3_TabPin2'。
+資訊: 正在處理符號 'U3:Package_TO_SOT_SMD:TSOT-23-6'。
+資訊: 正在處理符號 'U4:Tony:VQFN-HR9_RQF_TEX(TPS54538)'。
+資訊: 正在處理符號 'V_BAT+1:TestPoint:TestPoint_Pad_D1.0mm'。
+資訊: 正在處理符號 'C13:Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+已將 R1 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已將 R52 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 C24 個欄位。
+已更新 C22 個欄位。
+已更新 R1 個欄位。
+已將 R2 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 R2 個欄位。
+添加了 R3 (封裝 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder')。
+已將 REF** 的參考位置更改為 R3。
+已將 C22 的封裝從 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' 替換為 'Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+
+
+已更新 C19 個欄位。
+已將 C19 的封裝從 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' 替換為 'Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+已更新 C18 個欄位。
+已將 C18 的封裝從 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' 替換為 'Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+已更新 R55 個欄位。
+已將 R55 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 C17 個欄位。
+已更新 R52 個欄位。
+已將 R3 的值從 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' 修改為 '100k'。
+將 R3 符號分配從  更新到 /2880752d-4a58-48ca-9689-d11b86d793fe。
+已更新 R3 個欄位。
+已將 R3 圖紙名稱更新為 '/'。
+已將 R3 圖紙檔案更新為 'power layer.kicad_sch'。
+已將 R3 封裝篩選器更新為 'R_*'。
+將 R3 接腳 2 連接到了 PG_BUCK。
+將 R3 接腳 1 連接到了 +3.3V。
+已將 C17 的封裝從 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' 替換為 'Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+已將 R13 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 R13 個欄位。
+已更新 C15 個欄位。
+已將 R14 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 R14 個欄位。
+已將 C15 的封裝從 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' 替換為 'Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+已將 R15 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 R15 個欄位。
+已更新 C14 個欄位。
+已將 R16 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 R16 個欄位。
+已將 C14 的封裝從 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' 替換為 'Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+已將 R17 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 R17 個欄位。
+已更新 C13 個欄位。
+已將 R18 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 R18 個欄位。
+已將 C13 的封裝從 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' 替換為 'Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+已將 R19 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 R19 個欄位。
+已更新 C12 個欄位。
+已將 R20 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 R20 個欄位。
+已將 C12 的封裝從 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已將 R21 的封裝從 'Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder' 替換為 'Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder'。
+已更新 R21 個欄位。
+已將 C24 的封裝從 'Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' 替換為 'Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder'。
+警告: 找不到元件 H1 的焊盤 1 的網路 (接腳 1 不存在於符號中)。
+警告: 找不到元件 J4 的焊盤 MP 的網路 (接腳 MP 不存在於符號中)。
+警告: 找不到元件 J4 的焊盤 MP 的網路 (接腳 MP 不存在於符號中)。
+警告: 找不到元件 J3 的焊盤 MP 的網路 (接腳 MP 不存在於符號中)。
+警告: 找不到元件 J2 的焊盤 MP 的網路 (接腳 MP 不存在於符號中)。
+警告: 找不到元件 J2 的焊盤 MP 的網路 (接腳 MP 不存在於符號中)。
+警告: 找不到元件 J1 的焊盤 MP 的網路 (接腳 MP 不存在於符號中)。
+警告: 找不到元件 J1 的焊盤 MP 的網路 (接腳 MP 不存在於符號中)。
+警告: 找不到元件 H4 的焊盤 1 的網路 (接腳 1 不存在於符號中)。
+警告: 找不到元件 H3 的焊盤 1 的網路 (接腳 1 不存在於符號中)。
+警告: 找不到元件 H2 的焊盤 1 的網路 (接腳 1 不存在於符號中)。
+警告: 找不到元件 J3 的焊盤 MP 的網路 (接腳 MP 不存在於符號中)。
+
+
+資訊: 總計警告: 12, 錯誤: 0。

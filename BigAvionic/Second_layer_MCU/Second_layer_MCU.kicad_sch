@@ -7857,6 +7857,19 @@
 		(uuid ae167c08-7886-46cc-8439-25d083b4bcfc)
 	)
 	(rectangle
+		(start 424.18 173.99)
+		(end 478.79 225.044)
+		(stroke
+			(width 0.1778)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ba58be4f-78b2-4c71-b7d3-0eda89641016)
+	)
+	(rectangle
 		(start 165.1 68.326)
 		(end 205.74 106.68)
 		(stroke
@@ -7944,6 +7957,17 @@
 			(type none)
 		)
 		(uuid f3b8f2d7-4401-45da-bf57-885e86cbd853)
+	)
+	(text "Connection to power layer"
+		(exclude_from_sim no)
+		(at 451.104 178.054 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "077bbe95-d15d-4365-8316-0a4897582baa")
 	)
 	(text "High g accel meter\n"
 		(exclude_from_sim no)
@@ -10040,6 +10064,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.6946 158.75) (xy 100.33 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c5af62-f3a3-43fe-99ca-4d6ada59d391")
+	)
+	(wire
+		(pts
 			(xy 50.8 262.89) (xy 64.77 262.89)
 		)
 		(stroke
@@ -11450,6 +11484,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 158.75) (xy 79.0746 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db02cb18-167a-4ae9-89e6-dc4c23eb99f1")
+	)
+	(wire
+		(pts
 			(xy 361.95 307.34) (xy 360.68 307.34)
 		)
 		(stroke
@@ -11886,6 +11930,28 @@
 			)
 		)
 	)
+	(global_label "Battery_Sensing"
+		(shape input)
+		(at 458.47 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07d6c53b-f128-4e4d-8eeb-2b34c07be0b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 440.4264 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CSB_Baro"
 		(shape input)
 		(at 307.34 125.73 0)
@@ -11954,7 +12020,7 @@
 	)
 	(global_label "UART3_TX"
 		(shape input)
-		(at 100.33 158.75 180)
+		(at 74.93 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11964,7 +12030,7 @@
 		)
 		(uuid "0ddeb75f-9347-4c8c-b005-4392f5117683")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.3339 158.75 0)
+			(at 62.9339 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,6 +12410,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SUP_STAT"
+		(shape input)
+		(at 458.47 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24d66ae3-216d-4ba0-a1f0-5c54ec2cf632")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 446.4739 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14346,6 +14434,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PG_BUCK"
+		(shape input)
+		(at 458.47 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e038b568-153e-435c-9519-7143cff8a4a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 446.8367 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -17529,6 +17639,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 458.47 203.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "395a23d7-ec4c-4802-88ae-65a82c3968ad")
+		(property "Reference" "#PWR013"
+			(at 452.12 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 453.39 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 458.47 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d668a9d-4d25-4e9e-93c5-af70b412ce7a")
+		)
+		(instances
+			(project "Second_layer_MCU"
+				(path "/64f7ab5e-dc4b-4163-85e9-0ae2f675a296"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 316.23 328.93 270)
 		(unit 1)
@@ -18504,6 +18680,82 @@
 			(project "Second_layer_MCU"
 				(path "/64f7ab5e-dc4b-4163-85e9-0ae2f675a296"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 463.55 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5454cadb-6e4c-4166-b840-b1d3d60a9731")
+		(property "Reference" "J7"
+			(at 466.09 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 466.09 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+			(at 463.55 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 463.55 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 463.55 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "74cd4d39-6907-419a-9acd-c1b3ca1bc0ee")
+		)
+		(pin "1"
+			(uuid "4f96ecd3-4cbd-429c-b2d1-45fdf26a404a")
+		)
+		(pin "3"
+			(uuid "a84c0f2c-401a-429c-bfaf-87f362298b7e")
+		)
+		(pin "2"
+			(uuid "c2625007-e525-4001-9221-01f4a1453f53")
+		)
+		(instances
+			(project "Second_layer_MCU"
+				(path "/64f7ab5e-dc4b-4163-85e9-0ae2f675a296"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -22562,6 +22814,73 @@
 			(project "Second_layer_MCU"
 				(path "/64f7ab5e-dc4b-4163-85e9-0ae2f675a296"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.8846 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c08026d7-b2af-4e92-b6e9-7d8666adb67e")
+		(property "Reference" "R1"
+			(at 82.8846 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22ohm"
+			(at 82.8846 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 82.8846 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.8846 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.8846 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d202fd3-0dec-44ea-9072-457ae5b5485d")
+		)
+		(pin "2"
+			(uuid "1262dbd9-4748-4cc0-a22f-356ac04bea8e")
+		)
+		(instances
+			(project "Second_layer_MCU"
+				(path "/64f7ab5e-dc4b-4163-85e9-0ae2f675a296"
+					(reference "R1")
 					(unit 1)
 				)
 			)
