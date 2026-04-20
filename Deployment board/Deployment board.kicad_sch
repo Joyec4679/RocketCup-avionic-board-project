@@ -254,7 +254,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -270,8 +270,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -296,7 +296,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -323,10 +323,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -360,17 +360,6 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -426,24 +415,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2725,12 +2696,6 @@
 		(uuid "04d4df08-769a-4df5-a47e-45ed66533fd8")
 	)
 	(junction
-		(at 35.56 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f5db6a2-bce0-46c1-9516-2bdc4d0d52f1")
-	)
-	(junction
 		(at 74.93 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2771,12 +2736,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "819e64a5-33b9-41a1-b111-8bc2f33c1482")
-	)
-	(junction
-		(at 81.28 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8253f760-5255-4769-bcf3-f26d1fc31a71")
 	)
 	(junction
 		(at 109.22 45.72)
@@ -2906,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 149.86) (xy 81.28 152.4)
+			(xy 81.28 147.32) (xy 81.28 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2983,16 +2942,6 @@
 			(type default)
 		)
 		(uuid "2451fe41-d289-4d1c-b9fe-44a82c9df9bd")
-	)
-	(wire
-		(pts
-			(xy 76.2 149.86) (xy 81.28 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "256f73de-c102-4f23-b30d-03bf3eb72c3a")
 	)
 	(wire
 		(pts
@@ -3126,7 +3075,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 147.32) (xy 35.56 149.86)
+			(xy 35.56 147.32) (xy 35.56 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3226,16 +3175,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 149.86) (xy 35.56 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8019a362-3dbc-4618-b868-a6c9a88bc89e")
-	)
-	(wire
-		(pts
 			(xy 59.69 41.91) (xy 62.23 41.91)
 		)
 		(stroke
@@ -3316,16 +3255,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 149.86) (xy 35.56 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "965cfd36-3f16-4f72-a119-1a793776c9fc")
-	)
-	(wire
-		(pts
 			(xy 161.29 46.99) (xy 161.29 48.26)
 		)
 		(stroke
@@ -3403,16 +3332,6 @@
 			(type default)
 		)
 		(uuid "b30fae5c-1ec8-4827-8a3f-48a03a4d23fc")
-	)
-	(wire
-		(pts
-			(xy 81.28 147.32) (xy 81.28 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b81e47a4-b1f5-4f8b-9e52-4f5c2279e648")
 	)
 	(wire
 		(pts
@@ -3917,7 +3836,7 @@
 				)
 			)
 		)
-		(property "Value" "667-ERA-6ARB332V"
+		(property "Value" "3.3k"
 			(at 83.439 54.483 0)
 			(effects
 				(font
@@ -4092,7 +4011,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "755-SML-S13UTT68"
+		(property "Value" "MFire"
 			(at 85.09 89.2174 90)
 			(effects
 				(font
@@ -4248,7 +4167,7 @@
 				)
 			)
 		)
-		(property "Value" "755-SML-S13UTT68"
+		(property "Value" "Motor"
 			(at 83.566 48.768 90)
 			(effects
 				(font
@@ -4472,7 +4391,7 @@
 				)
 			)
 		)
-		(property "Value" "REMOVE BEFORE FLIGHT"
+		(property "Value" "XT60"
 			(at 176.53 34.29 0)
 			(effects
 				(font
@@ -4619,7 +4538,7 @@
 				)
 			)
 		)
-		(property "Value" "78-SD101CWS-HE3_A-08"
+		(property "Value" "D_Schottky"
 			(at 52.07 37.846 0)
 			(effects
 				(font
@@ -4693,7 +4612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "594-MCU0805PC1003FP5"
+		(property "Value" "100k"
 			(at 163.322 44.45 0)
 			(effects
 				(font
@@ -4912,7 +4831,7 @@
 				)
 			)
 		)
-		(property "Value" "667-EEH-ZS1E102UP"
+		(property "Value" "1000u"
 			(at 105.156 63.5 90)
 			(effects
 				(font
@@ -5138,7 +5057,7 @@
 				)
 			)
 		)
-		(property "Value" "667-ERA-6ARB332V"
+		(property "Value" "3.3k"
 			(at 75.311 119.507 90)
 			(effects
 				(font
@@ -5286,7 +5205,7 @@
 				)
 			)
 		)
-		(property "Value" "652-SF-1206HV15M-2"
+		(property "Value" "Fuse(>15A)"
 			(at 143.51 26.67 90)
 			(effects
 				(font
@@ -5693,7 +5612,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 71.12 144.78 0)
 		(mirror y)
 		(unit 1)
@@ -5711,7 +5630,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Conn_01x03"
 			(at 71.12 138.43 0)
 			(effects
 				(font
@@ -5737,7 +5656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 71.12 144.78 0)
 			(effects
 				(font
@@ -5748,9 +5667,6 @@
 		)
 		(pin "2"
 			(uuid "df5db79b-0ce1-4848-bc76-163c6b7a556f")
-		)
-		(pin "4"
-			(uuid "86a9b4a7-9227-4214-bd72-a78e8269de25")
 		)
 		(pin "3"
 			(uuid "6928a343-692f-41b0-94ea-cf9567dae47b")
@@ -5864,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Value" "667-ERA-6ARB332V"
+		(property "Value" "3.3k"
 			(at 75.311 99.187 90)
 			(effects
 				(font
@@ -5939,7 +5855,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "77-VJ0805Y104KCAAJ"
+		(property "Value" "100n"
 			(at 103.632 54.864 90)
 			(effects
 				(font
@@ -6160,7 +6076,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "652-SMAJ15CA"
+		(property "Value" "TVS"
 			(at 153.67 39.3699 90)
 			(effects
 				(font
@@ -6451,7 +6367,7 @@
 				)
 			)
 		)
-		(property "Value" "708-RNAN0805BKE1K00"
+		(property "Value" "1k"
 			(at 69.596 51.562 0)
 			(effects
 				(font
@@ -6526,7 +6442,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "755-SML-S13UTT68"
+		(property "Value" "BFire"
 			(at 85.09 109.5374 90)
 			(effects
 				(font
@@ -6677,7 +6593,7 @@
 				)
 			)
 		)
-		(property "Value" "78-SD101CWS-HE3_A-08"
+		(property "Value" "D_Schottky"
 			(at 52.07 27.686 0)
 			(effects
 				(font
@@ -6830,7 +6746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "667-ERA-6ARB332V"
+		(property "Value" "3.3k"
 			(at 180.848 76.962 90)
 			(effects
 				(font
@@ -6991,7 +6907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0221_1x02_P3.00mm_Vertical"
 			(at 130.81 30.48 0)
 			(effects
 				(font
@@ -7129,7 +7045,7 @@
 				)
 			)
 		)
-		(property "Value" "755-SML-S13UTT68"
+		(property "Value" "Indicater"
 			(at 190.5 86.36 0)
 			(effects
 				(font
@@ -7195,7 +7111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 25.4 144.78 0)
 		(mirror y)
 		(unit 1)
@@ -7213,7 +7129,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Conn_01x03"
 			(at 25.4 138.43 0)
 			(effects
 				(font
@@ -7239,7 +7155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 25.4 144.78 0)
 			(effects
 				(font
@@ -7250,9 +7166,6 @@
 		)
 		(pin "2"
 			(uuid "dfe18626-bfd1-48c0-b721-5c37d7444357")
-		)
-		(pin "4"
-			(uuid "5fe0036e-cc38-41fd-af27-d0dabb086a78")
 		)
 		(pin "3"
 			(uuid "85a834c0-0a32-4b6d-99a3-2b90d7eb35ff")
@@ -7292,7 +7205,7 @@
 				)
 			)
 		)
-		(property "Value" "708-RNAN0805BKE1K00"
+		(property "Value" "1k"
 			(at 60.706 90.932 0)
 			(effects
 				(font
@@ -7439,7 +7352,7 @@
 				)
 			)
 		)
-		(property "Value" "708-RNAN0805BKE1K00"
+		(property "Value" "1k"
 			(at 60.706 111.252 0)
 			(effects
 				(font
@@ -7513,7 +7426,7 @@
 				)
 			)
 		)
-		(property "Value" "750-SS54BF-HF"
+		(property "Value" "D_Schottky"
 			(at 101.9175 41.91 0)
 			(effects
 				(font
