@@ -15131,6 +15131,7 @@
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 388.62 243.84 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
