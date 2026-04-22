@@ -1,4 +1,4 @@
-(footprint "無標題"
+(footprint "TPSM63603SRDH"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "無標題"
+	(property "Value" "TPSM63603SRDH"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -54,6 +54,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -14.39 -19.65)
+		(end 19.26 26.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "f7e5b670-de86-43af-9c73-b2e196910f21")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)

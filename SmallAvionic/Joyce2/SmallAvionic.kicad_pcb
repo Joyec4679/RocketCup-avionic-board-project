@@ -1003,7 +1003,7 @@
 			(net 5 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0404f4c1-b3b6-4b5d-b55f-41fa38782fe1")
+			(uuid "367aac2d-e7a1-4007-98be-ecc76614dfad")
 		)
 		(pad "2" smd roundrect
 			(at -4.55 2.25 90)
@@ -1023,7 +1023,7 @@
 			(net 11 "USER_BT")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b10a201d-09ca-40e5-9d0f-8ee94dad4dc8")
+			(uuid "7c6c6007-73b5-4d34-b7b5-dd2dd8fb9e30")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG.step"
@@ -18615,7 +18615,7 @@
 			(net 5 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9a5278f4-b1a2-412f-a06d-20bf931fd066")
+			(uuid "bb055d8c-11bb-467b-a46b-53a014cc58a7")
 		)
 		(pad "2" smd roundrect
 			(at -4.55 2.25 90)
@@ -18635,7 +18635,7 @@
 			(net 6 "NRST")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "5a7e4aa3-fbde-4f63-82be-7fe25b318f86")
+			(uuid "30210607-8bdb-450b-9ac0-12c450311a2b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG.step"
