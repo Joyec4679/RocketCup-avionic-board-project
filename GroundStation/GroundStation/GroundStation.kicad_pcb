@@ -13460,7 +13460,6 @@
 			(size 1.7 1.7)
 			(layers "F.Cu" "F.Mask" "F.SilkS" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net 40 "unconnected-(U10-NC-Pad19)")
 			(pinfunction "NC")
 			(pintype "power_in+no_connect")
 			(teardrops
