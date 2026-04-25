@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "garber_power_new/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

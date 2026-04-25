@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "9.0.7"
     },
-    "CreationDate": "2026-04-25T17:29:47+08:00"
+    "CreationDate": "2026-04-25T17:32:27+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "lora",
-      "GUID": "6c6f7261-2e6b-4696-9361-645f70636258",
+      "Name": "power layer",
+      "GUID": "706f7765-7220-46c6-9179-65722e6b6963",
       "Revision": "rev?"
     },
     "Size": {
@@ -27,7 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.3,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     },
@@ -42,57 +42,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "lora-F_Cu.gbr",
+      "Path": "power layer-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "lora-In1_Cu.gbr",
+      "Path": "power layer-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "lora-In2_Cu.gbr",
+      "Path": "power layer-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "lora-B_Cu.gbr",
+      "Path": "power layer-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "lora-F_Paste.gbr",
+      "Path": "power layer-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "lora-B_Paste.gbr",
+      "Path": "power layer-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "lora-F_Silkscreen.gbr",
+      "Path": "power layer-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "lora-B_Silkscreen.gbr",
+      "Path": "power layer-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "lora-F_Mask.gbr",
+      "Path": "power layer-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "lora-B_Mask.gbr",
+      "Path": "power layer-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "lora-Edge_Cuts.gbr",
+      "Path": "power layer-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
