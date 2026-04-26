@@ -12937,10 +12937,75 @@
 		(layer "Edge.Cuts")
 		(uuid "ff812069-4588-4e1a-9ad1-e41699beafe6")
 	)
+	(gr_text "P_TOP"
+		(at 210.2 93.2 0)
+		(layer "F.SilkS")
+		(uuid "03c945ad-74db-4233-9a55-931641f284f5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BAT"
+		(at 165.18 121.11 0)
+		(layer "F.SilkS")
+		(uuid "1553d014-8370-4571-926a-b374c6aba70b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Power Layer v1"
 		(at 192.48 58.22 0)
 		(layer "F.SilkS")
 		(uuid "44771ff6-6241-431c-b2b6-ecb6c81b127e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "S_MCU"
+		(at 151.4 96.39 0)
+		(layer "F.SilkS")
+		(uuid "4af823c4-ade8-4160-8a37-b6b1d33fe70f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "P_MCU"
+		(at 209.23 72.65 0)
+		(layer "F.SilkS")
+		(uuid "78ab97ac-adea-43fe-93c4-8f81230a646a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "P_LORA"
+		(at 200.34 120.95 0)
+		(layer "F.SilkS")
+		(uuid "f4c8034c-d210-406a-9933-50499539f93e")
 		(effects
 			(font
 				(size 1.5 1.5)
