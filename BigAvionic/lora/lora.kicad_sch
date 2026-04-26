@@ -1485,6 +1485,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_Filled_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_TVS_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2228,6 +2390,12 @@
 		(uuid "063c94a1-afa2-4db1-b8d0-ed52afaea45b")
 	)
 	(junction
+		(at 77.47 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af53a71-63f7-4ab8-8384-eaf8cdd0a8a5")
+	)
+	(junction
 		(at 204.47 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2258,6 +2426,12 @@
 		(uuid "715c94e9-59ae-4edd-bfdb-df150d1c0d6d")
 	)
 	(junction
+		(at 73.66 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cee754e-953e-4e5f-857f-7a57db403da9")
+	)
+	(junction
 		(at 200.66 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2268,12 +2442,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8edf866c-9565-4f39-94f1-fcd0dcb7e51c")
-	)
-	(junction
-		(at 78.74 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9091fc51-2ca3-4c13-a887-24c760a2370d")
 	)
 	(junction
 		(at 99.06 90.17)
@@ -2304,6 +2472,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e65b432c-5832-4d6c-b05a-7ff590ceea06")
+	)
+	(junction
+		(at 73.66 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa3a5937-289d-479f-8f4d-48aa22cf5cac")
 	)
 	(junction
 		(at 209.55 105.41)
@@ -2465,7 +2639,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 146.05) (xy 78.74 146.05)
+			(xy 69.85 146.05) (xy 73.66 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2525,6 +2699,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 138.43) (xy 80.01 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e012b1a-2ff8-4c0e-bdd7-f1dd71fc0d3a")
+	)
+	(wire
+		(pts
 			(xy 99.06 101.6) (xy 99.06 104.14)
 		)
 		(stroke
@@ -2555,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 138.43) (xy 68.58 138.43)
+			(xy 73.66 138.43) (xy 77.47 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2565,13 +2749,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 138.43) (xy 78.74 138.43)
+			(xy 73.66 146.05) (xy 77.47 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7123da58-cda9-4169-968b-14ea4dc684a6")
+		(uuid "74f91980-87b0-46d3-b9a4-e0f8e846315e")
 	)
 	(wire
 		(pts
@@ -2722,6 +2906,16 @@
 			(type default)
 		)
 		(uuid "a7253970-d421-4519-bfae-66ffc22d1e3a")
+	)
+	(wire
+		(pts
+			(xy 73.66 138.43) (xy 68.58 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab86fe80-e4ea-4d01-bf35-1f79fca1068b")
 	)
 	(wire
 		(pts
@@ -4622,7 +4816,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 142.24 180)
+		(at 73.66 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4630,7 +4824,7 @@
 		(dnp no)
 		(uuid "58ec75a1-feb2-4f48-9494-429c391189ea")
 		(property "Reference" "C7"
-			(at 74.93 143.764 0)
+			(at 69.85 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4833,7 @@
 			)
 		)
 		(property "Value" "470u"
-			(at 74.93 140.9701 0)
+			(at 69.85 140.9701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4842,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_HandSolder"
-			(at 77.7748 138.43 0)
+			(at 72.6948 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 142.24 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4860,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 142.24 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 146.05 270)
+		(at 69.85 146.05 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6262,7 +6456,7 @@
 		(dnp no)
 		(uuid "e5df969a-e053-47ea-8a85-b731aadddf1d")
 		(property "Reference" "#PWR022"
-			(at 71.12 146.05 0)
+			(at 63.5 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 146.05 0)
+			(at 64.77 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +6474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 146.05 0)
+			(at 69.85 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,7 +6483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 146.05 0)
+			(at 69.85 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +6492,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 146.05 0)
+			(at 69.85 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,6 +6850,75 @@
 			(project "lora"
 				(path "/e7e6f94f-519b-4ec5-b32e-6265e8eb4710"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 77.47 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe48d5f7-c3f8-45c4-addf-d3c23750b8ac")
+		(property "Reference" "D2"
+			(at 80.01 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TVS"
+			(at 80.01 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 77.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 77.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55aefbb6-b5c8-4727-8364-2cdf44c7b860")
+		)
+		(pin "2"
+			(uuid "9c78e034-bc33-4cc9-9f17-db4aad32520a")
+		)
+		(instances
+			(project "lora"
+				(path "/e7e6f94f-519b-4ec5-b32e-6265e8eb4710"
+					(reference "D2")
 					(unit 1)
 				)
 			)
