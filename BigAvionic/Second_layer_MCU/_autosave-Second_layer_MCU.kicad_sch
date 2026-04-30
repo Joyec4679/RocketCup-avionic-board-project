@@ -15352,7 +15352,7 @@
 				)
 			)
 		)
-		(property "Value" "BMP390"
+		(property "Value" "BMP388/390"
 			(at 284.48 107.95 0)
 			(effects
 				(font
@@ -16386,7 +16386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "220"
 			(at 314.198 299.212 90)
 			(effects
 				(font
@@ -16794,7 +16794,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "G"
 			(at 303.53 323.088 0)
 			(effects
 				(font
@@ -18535,7 +18535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "100"
 			(at 314.198 325.882 90)
 			(effects
 				(font
@@ -19679,7 +19679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "AO3400A"
 			(at 364.49 318.7699 0)
 			(effects
 				(font
@@ -19822,7 +19822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "10pF"
 			(at 194.31 97.7899 0)
 			(effects
 				(font
@@ -22311,7 +22311,7 @@
 				)
 			)
 		)
-		(property "Value" "B"
+		(property "Value" "W"
 			(at 303.53 334.518 0)
 			(effects
 				(font
@@ -24785,7 +24785,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "100"
 			(at 314.198 314.452 90)
 			(effects
 				(font
@@ -24920,7 +24920,7 @@
 				)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "Y"
 			(at 303.53 307.848 0)
 			(effects
 				(font
@@ -26904,7 +26904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "10pF"
 			(at 173.99 97.7899 0)
 			(effects
 				(font
