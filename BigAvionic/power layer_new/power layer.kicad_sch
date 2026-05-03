@@ -8938,7 +8938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 159.258 161.036 90)
 			(effects
 				(font
@@ -9145,7 +9145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "100"
 			(at 157.988 152.146 90)
 			(effects
 				(font
@@ -11064,7 +11064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "100"
 			(at 159.258 170.942 90)
 			(effects
 				(font
