@@ -508,7 +508,7 @@
       "plot": "garber_lora/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "lora.step",
       "svg": "",
       "vrml": ""
     },
@@ -589,6 +589,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],

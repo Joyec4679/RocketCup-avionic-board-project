@@ -511,7 +511,7 @@
       "plot": "garber_MCU/",
       "pos_files": "./",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Second_layer_MCU.step",
       "svg": "",
       "vrml": ""
     },

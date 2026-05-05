@@ -6702,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Value" "G_5V"
+		(property "Value" "~"
 			(at 168.91 169.418 0)
 			(effects
 				(font
@@ -9551,7 +9551,7 @@
 				)
 			)
 		)
-		(property "Value" "G_3V3"
+		(property "Value" "~"
 			(at 168.91 180.34 0)
 			(effects
 				(font
@@ -10649,7 +10649,7 @@
 				)
 			)
 		)
-		(property "Value" "G_3V3"
+		(property "Value" "~"
 			(at 168.91 161.29 0)
 			(effects
 				(font

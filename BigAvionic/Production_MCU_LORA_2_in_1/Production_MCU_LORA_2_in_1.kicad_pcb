@@ -11482,7 +11482,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "222417a1-b556-4817-a094-ec282b1a2968")
+			(uuid "050a1d3e-8b9f-46d0-89c0-57b0a56b9dc6")
 		)
 		(zone
 			(net 0)
@@ -20982,17 +20982,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "b2ed59c1-ba85-4194-9260-b239a123becf")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 3.81 90)
-			(layer "F.Fab")
-			(uuid "6215196a-8077-4b3d-905b-9af4489dd879")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at 0 0)
